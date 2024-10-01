@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import product1 from "../../images/product1.jpg";
+import product1 from "@/app/images/product1.jpg";
 import Link from "next/link";
 
 export default function ListItem({ id, category, price }) {
@@ -8,7 +8,7 @@ export default function ListItem({ id, category, price }) {
 
   return (
     <div className=" flex flex-col justify-center items-center">
-      <Link href={`../../components/ListItem/${id}`}>
+      <Link href={`components/ListItem/${id}`}>
         <Image
           priority
           width={300}

@@ -1,4 +1,4 @@
-import Products from "./components/Products/page";
+import Products from "@/app/components/Products/page";
 
 export const metadata = {
   title: "Newseven",
